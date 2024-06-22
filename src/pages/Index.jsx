@@ -11,13 +11,13 @@ const Index = () => {
   }, []);
 
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" position="relative">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" position="relative" color="white">
       <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1">
         <spline-viewer url="https://prod.spline.design/veg-svYPBiFff9l4/scene.splinecode"></spline-viewer>
       </Box>
       <VStack spacing={4}>
-        <Heading as="h1" size="2xl">Welcome to AI Info Site</Heading>
-        <Text fontSize="lg" textAlign="center">
+        <Heading as="h1" size="2xl" color="white">Welcome to AI Info Site</Heading>
+        <Text fontSize="lg" textAlign="center" color="white">
           Discover the fascinating world of Artificial Intelligence. Learn about its applications, advancements, and how it's shaping the future.
         </Text>
         <Flex mt={4}>
