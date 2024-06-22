@@ -11,7 +11,7 @@ const Index = () => {
   }, []);
 
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" position="relative" color="white">
+    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" position="relative" color="white" bg="#070707">
       <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1">
         <spline-viewer url="https://prod.spline.design/veg-svYPBiFff9l4/scene.splinecode"></spline-viewer>
       </Box>

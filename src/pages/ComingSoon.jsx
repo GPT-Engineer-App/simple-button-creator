@@ -12,7 +12,7 @@ const ComingSoon = () => {
       display="flex"
       justifyContent="center"
       alignItems="center"
-      bgGradient="linear(to-r, gray.900, gray.800)"
+      bg="#070707"
       color="white"
     >
       <VStack spacing={4} animation={`${fadeIn} 2s ease-in-out`}>
